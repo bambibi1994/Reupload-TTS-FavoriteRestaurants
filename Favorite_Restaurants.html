@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Sedwick font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap" rel="stylesheet">
+    <!--Doris font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap" rel="stylesheet">
+
+    <title>Favorite Kitchen</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!--This is the body of this website
+    First line is the link to another html file in same folder
+    Follow by the list of favorite restaurant
+    Display name and link to restaurant website when clicked
+    Adress of restaurant
+    Link to picture of restaurant food with desciption-->
+    <div class="color-black">
+        <a href="Favorite_Restaurants.html" class="box">Home</a>
+        <a href="my_kitchen.html" class="box">My Kitchen</a>
+        <a href="my_food.html" class="box">My Food</a>
+    </div>
+
+    <div>
+        <h1 class="custom-font1 color-red"> List of Favorite Restaurants</h1>
+
+        <div class="row">
+
+            <div class="box">
+                <a href="https://franklinbbq.com/" target="_blank">Franklin Barbecue</a>
+                <p class="custom-font2">900 E 11th St, Austin, TX 78702</p>
+                <img src="sources/BBQ.jpg" height="250" width="400" alt="Picture of a plate of BBQ">
+            </div>
+
+            <div class="box">
+                <a href="https://fujiangrandaustin.com/" target="_blank">Fujian Grand China Buffet</a>
+                <p class="custom-font2">8709 N Interstate Hwy 35, Austin, TX 78753</p>
+                <img src="sources/ChineseBuffet.jpg" height="250" width="400" alt="Picture infront of Restaurants">
+            </div>
+
+            <div class="box">
+                <a href="https://www.yelp.com/biz/ho-ho-chinese-bbq-austin" target="_blank">Ho Ho Chinese B.B.Q.</a>
+                <p class="custom-font2">13000 I-35, Austin, TX 78753</p>
+                <img src="sources/RoastedDuck.jpg" height="250" width="400" alt="Picture of RoastedDuck">
+            </div>
+
+            <div class="box">
+                <a href="https://baguette-house-cafe.business.site/" target="_blank">Baguette House & Cafe</a>
+                <p class="custom-font2">10901 N Lamar Blvd #C312, Austin, TX 78753</p>
+                <img src="sources/baguette.jpg" height="250" width="400" alt="Picture of beef baguette">
+            </div>
+
+            <div class="box">
+                <a href="https://hanaworldmarket.net/food-court/hana-yoree" target="_blank">Hana Yoree</a>
+                <p class="custom-font2">1700 W Parmer Ln #100, Austin, TX 78727</p>
+                <img src="sources/KoreanFood.jpg" height="250" width="400" alt="Picture of food portion in Hana Yoree">
+            </div>
+            <div>
+                <!--Ask User for username, email, comment.-->
+                <h2 class="custom-font1">Add a Comment</h2>
+                <form>
+                    <label for="name">Name: </label>
+                    <input type="text" id="name" name="name"><br>
+                    <label for="email">Email: </label>
+                    <input type="text" id="email" name="email"><br>
+                    <p>Comment:</p>
+                    <textarea id="comment" name="comment" rows="10" cols="50"> </textarea>
+                    <br> <input type=submit value="Submit">
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+    <div>
+        <footer class="color-black">
+            <a href="Favorite_Restaurants.html" class="box">Home</a>
+            <a href="my_kitchen.html" class="box">My Kitchen</a>
+            <a href="my_food.html" class="box">My Food</a>
+        </footer>
+    </div>
+
+
+</body>
+
+</html>
